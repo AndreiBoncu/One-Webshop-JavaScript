@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\cypress",
+    "\\cypress\\e2e",
+    "\\cypress\\e2e\\BDD",
+    "\\cypress\\e2e\\BDD\\homePage",
+    "\\cypress\\support",
+    "\\cypress\\support\\pageObjects"
+  ],
+  "SelectedNode": "\\cypress\\support\\e2e.js",
+  "PreviewInSolutionExplorer": false
+}

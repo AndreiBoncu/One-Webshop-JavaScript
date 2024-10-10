@@ -1,0 +1,120 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "home-page;home-page-component-verification",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Home Page component verification",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user opens \"one-webshop-home\" page",
+            "match": {
+              "location": "cypress/e2e/BDD/homePage/homePageStepDef.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1408000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "header contains \"the brand Icon\"",
+            "match": {
+              "location": "cypress/e2e/BDD/homePage/homePageStepDef.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "header contains \"the cart Icon\"",
+            "match": {
+              "location": "cypress/e2e/BDD/homePage/homePageStepDef.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "\"banner text\" is displayed on the page",
+            "match": {
+              "location": "cypress/e2e/BDD/homePage/homePageStepDef.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "\"Search field\" is displayed on the page",
+            "match": {
+              "location": "cypress/e2e/BDD/homePage/homePageStepDef.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "\"Webhosting Cards\" are displayed on the page",
+            "match": {
+              "location": "cypress/e2e/BDD/homePage/homePageStepDef.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@home",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "home-page",
+    "line": 3,
+    "keyword": "Feature",
+    "name": "Home Page",
+    "tags": [
+      {
+        "name": "@home",
+        "line": 1
+      },
+      {
+        "name": "@regression",
+        "line": 1
+      }
+    ],
+    "uri": "cypress\\e2e\\BDD\\homePage.feature"
+  }
+]

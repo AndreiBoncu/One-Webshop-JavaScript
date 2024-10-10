@@ -1,0 +1,48 @@
+{
+  "name": "onewebshopjs",
+  "version": "1.0.0",
+  "description": "One Webshop Automation Cypress with JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "headTest": "npm run test --headed",
+    "chromeTest": "npm run test --browser chrome",
+    "recordDashBoardTest": "npx cypress run --record --key 79e7de6f-4905-471a-b69f-398fd8cd12d6"
+  },
+  "cypress-cucumber-preprocessor": {
+    "json": {
+      "enabled": true,
+      "output": "cypress/cucumberReports/results.json"
+    }
+  },
+  "author": "Andrei",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/ci-environment": "^10.0.1",
+    "@cucumber/cucumber": "^11.0.0",
+    "@cucumber/cucumber-expressions": "^17.1.0",
+    "@cucumber/gherkin": "^29.0.0",
+    "@cucumber/html-formatter": "^21.7.0",
+    "@cucumber/message-streams": "^4.0.1",
+    "@cucumber/messages": "^26.0.0",
+    "@cucumber/pretty-formatter": "^1.0.1",
+    "@cucumber/tag-expressions": "^6.1.0",
+    "@cypress/browserify-preprocessor": "latest",
+    "cypress": "^13.8.1",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-sql-server": "^1.0.0",
+    "mocha": "^10.1.0",
+    "multiple-cucumber-html-reporter": "^3.0.1",
+    "neat-csv": "5.1.0",
+    "or": "^0.2.0"    
+    
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^21.0.2",
+    "@cypress/xpath": "^2.0.3",
+    "cypress-xpath": "^2.0.1"
+  }
+
+  
+}

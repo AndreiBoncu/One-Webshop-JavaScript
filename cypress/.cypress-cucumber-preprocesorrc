@@ -1,0 +1,4 @@
+{
+  
+  "step_definitions": "cypress/e2e/BDD/**/*StepDef.js/"
+}
